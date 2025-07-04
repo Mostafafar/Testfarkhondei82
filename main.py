@@ -4,7 +4,6 @@ from keep_alive import keep_alive
 
 # Initialize the bot with your token
 bot = telebot.TeleBot(os.getenv('7584437136:AAHIEeIW5CyD50mWOnLxFHm_UWyaT3FYF9o'))
-
 # Command handlers
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
